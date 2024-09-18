@@ -1,21 +1,21 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.10
 
 import PackageDescription
 
 let package = Package(
     name: "Moya",
     platforms: [
-        .macOS(.v10_12),
-        .iOS(.v10),
-        .tvOS(.v10),
-        .watchOS(.v3)
+        .macOS(.v14),
+        .iOS(.v12),
+        .tvOS(.v12),
+        .watchOS(.v4)
     ],
     products: [
         .library(name: "Moya", targets: ["Moya"]),
         .library(name: "CombineMoya", targets: ["CombineMoya"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.0.0"))
+        .package(url: "https://github.com/DuongTH-NiceTube/Alamofire.git", .upToNextMajor(from: "5.0.0"))
     ],
     targets: [
         .target(

@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "Alamofire",
-        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "repositoryURL": "https://github.com/DuongTH-NiceTube/Alamofire.git",
         "state": {
           "branch": null,
-          "revision": "f455c2975872ccd2d9c81594c658af65716e9b9a",
-          "version": "5.9.1"
+          "revision": "044d9c5f5d12385e6a57954ec4a8eef2a942655f",
+          "version": "5.9.2"
         }
       }
     ]
